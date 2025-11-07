@@ -15,6 +15,12 @@ public class Main {
         System.out.println(student1.rno);
         System.out.println(student1.name);
         System.out.println(student1.marks);
+
+        Student student2 = new Student(12000, "Afifa", 98);
+
+        System.out.println(student2.rno);
+        System.out.println(student2.name);
+        System.out.println(student2.marks);
     }
 }
 
