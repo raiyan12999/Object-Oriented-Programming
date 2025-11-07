@@ -24,5 +24,15 @@ class Student {
     String name;
     int marks;
 
+    Student (){
+        int rno;
+        String name;
+        int marks;
+    }
 
+    Student (int rollNo, String givenName, int points){
+        rno = rollNo;
+        name = givenName;
+        marks = points;
+    }
 }
