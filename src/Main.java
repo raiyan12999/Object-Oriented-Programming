@@ -21,6 +21,12 @@ public class Main {
         System.out.println(student2.rno);
         System.out.println(student2.name);
         System.out.println(student2.marks);
+
+        Student student3 = new Student(35, "Bolbona");
+
+        System.out.println(student3.rno);
+        System.out.println(student3.name);
+        System.out.println(student3.marks);
     }
 }
 
@@ -40,5 +46,11 @@ class Student {
         rno = rollNo;
         name = givenName;
         marks = points;
+    }
+
+    Student (int rollNo, String givenName){
+        rno = rollNo;
+        name = givenName;
+
     }
 }
