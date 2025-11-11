@@ -6,5 +6,10 @@ public class Main {
 
         Box box = new Box(4, 6, 6);
         box.Information();
+
+        Rectangle rect = new Rectangle(3, 5, 7, 889);
+        rect.Information();
+        System.out.println(rect.h);
+        System.out.println(rect.price);
     }
 }
