@@ -5,7 +5,10 @@ public class Rectangle extends Box{
     double price;
 
     Rectangle(double length, double width, double height, double price) {
-        super(length, width, height);
+//      super(length, width, height);
+        this.l = length;
+        this.w = width;
+        this.h = height;
 
         this.price = price;
     }

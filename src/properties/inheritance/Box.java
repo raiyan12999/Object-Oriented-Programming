@@ -10,11 +10,18 @@ public class Box {
         System.out.println("Length of Box: " + this.l + " width: " + this.w + " height: " + this.h);
     }
 
-    Box(double length, double width, double height){
+//    Box(double length, double width, double height){
+//
+//        this.l = length;
+//        this.w = width;
+//        this.h = height;
+//
+//    }
 
-        this.l = length;
-        this.w = width;
-        this.h = height;
-it
+    Box(){
+        double l;
+        double w;
+        double h;
+
     }
 }
