@@ -18,4 +18,6 @@ public class Rectangle extends Box{
     Rectangle(double price){
         this.price = price;
     }
+
+
 }
