@@ -7,5 +7,16 @@ public class Main {
         computer.processData();
         computer.storesData();
         computer.storesTemporaryData();
+
+        Test test = new Test(45);
+        System.out.println(test.a);
+    }
+}
+
+class Test{
+    int a;
+
+    Test(int a){
+        this.a = a;
     }
 }
