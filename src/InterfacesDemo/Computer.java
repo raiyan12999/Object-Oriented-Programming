@@ -2,10 +2,7 @@ package InterfacesDemo;
 
 public class Computer implements CPU, HardDrive, RAM{
 
-    @Override
-    public void processData(){
-        System.out.println("I process all the data");
-    }
+
 
     @Override
     public void storesData() {
@@ -15,5 +12,10 @@ public class Computer implements CPU, HardDrive, RAM{
     @Override
     public void storesTemporaryData() {
         System.out.println("I store temporary data");
+    }
+
+    @Override
+    public void processData() {
+
     }
 }
