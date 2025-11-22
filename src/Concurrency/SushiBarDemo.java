@@ -61,7 +61,7 @@ public class SushiBarDemo {
                     // 1. Check: Is there food?
                     // If count is 0, Customer SLEEPS here until Chef makes something.
                     fullSlots.acquire();
-
+                    System.out.println();
 
                     // 2. Lock the counter
                     mutex.acquire();
